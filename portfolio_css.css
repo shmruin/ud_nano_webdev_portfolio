@@ -1,0 +1,64 @@
+html, body {
+			height: 100%;
+			width: 80%;
+			margin: auto;
+			font-family: 'Roboto Condensed', sans-serif;
+		}
+		.container-fluid {
+			height: 100%;
+			width: 100%;
+		}
+		.row.screen-all {
+			height: 100%;
+		}
+		.row.screen-top {
+			height: 15%;
+		}
+		.row.screen-middle {
+			height: 50%;
+			display: flex;
+			align-items: center;
+		}
+		.row.screen-bottom {
+			height: 35%;
+		}
+		#top-title {
+			text-align: right;
+		}
+		#top-title header {
+			font-size: 3em;
+		}
+		#top-title section {
+			font-size: 1.5em;
+		}
+		.aside-bar {
+			background: lightgrey;
+		}
+		.screen-middle img {
+			width: 100%;
+			height: 90%;
+		}
+		.bottom-wrapper {
+			padding: 0;
+		}
+		.bottom-title {
+			font-size: 2em;
+			height: 25%;
+			margin: 0;
+			padding-left: 10px;
+		}
+		.bottom-images {
+			height: 70%;
+			margin: 0;
+		}
+		button {
+			cursor: pointer;
+			margin: 2px;
+		}
+		.bottom-images > * {
+			text-align: center;
+		}
+		.bottom-title-btns {
+			text-align: right;
+			text-align: right;
+		}
